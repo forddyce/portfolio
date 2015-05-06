@@ -1,5 +1,8 @@
 #Portfolio
 
-In progress, I just started this today (5th May).
+This repo is aimed as my portfolio on web development. Since I publish the result in github, it is just static HTML page. You can view the result [here](http://forddyce.github.io/portfolio/).
 
-**In short, I'm trying to demonstrate my skills in web programming on here. Customizable widgets, efficient rendering, etc2.**
+Logs and updates
+
+1. May 6, 2015. Created homepage.
+2. May 5, 2015. Started the project.
