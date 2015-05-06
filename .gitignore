@@ -2,3 +2,5 @@ gulpfile.js
 /.sass-cache
 /node_modules
 /gulp
+/assets/coffee
+/assets/sass
