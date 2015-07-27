@@ -21,7 +21,7 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
-	<!-- <base href="/"> -->
+<!-- 	<base href="/"> -->
 	<base href="//forddyce.github.io/portfolio/">
 </head>
 <body>
@@ -92,29 +92,6 @@
 								<a href="#home">Home</a>
 							</li>
 
-							<li class="menu-item dropdown">
-								<a class="dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="true">	Pages
-								</a>
-
-								<ul class="dropdown-menu dropdown-menu-left">
-									<li class="menu-item">
-										<a href="#">About Me</a>
-									</li>
-
-									<li class="menu-item">
-										<a href="#">Services</a>
-									</li>
-
-									<li class="menu-item">
-										<a href="#">Blog - Right Sidebar</a>
-									</li>
-
-									<li class="menu-item">
-										<a href="#">Blog - Left Sidebar</a>
-									</li>
-								</ul>
-							</li>
-
 							<li class="menu-item dropdown mega-menu">
 								<a class="dropdown-toggle" href="#" data-toggle="dropdown">Elements</a>
 
@@ -165,16 +142,16 @@
 										<strong>Misc</strong>
 										<ul class="dropdown-menu-left">
 											<li class="menu-item">
-												<a href="#">Pricing</a>
+												<a href="#elements/misc/pricing">Pricing</a>
 											</li>
 											<li class="menu-item">
-												<a href="#">Feature font icons</a>
+												<a href="#elements/misc/featureicon">Feature font icons</a>
 											</li>
 											<li class="menu-item">
-												<a href="#">Features lists</a>
+												<a href="#elements/misc/featurelist">Features lists</a>
 											</li>
 											<li class="menu-item">
-												<a href="#">Scroll buttons</a>
+												<a href="#elements/misc/scroll">Scroll buttons</a>
 											</li>
 										</ul>
 									</li>
@@ -183,19 +160,19 @@
 										<strong>Infographic Elements</strong>
 										<ul class="dropdown-menu-left">
 											<li class="menu-item">
-												<a href="#">Charts</a>
+												<a href="#elements/infographic/chart">Charts</a>
 											</li>
 											<li class="menu-item">
-												<a href="#">Counters</a>
+												<a href="#elements/infographic/counter">Counters</a>
 											</li>
 											<li class="menu-item">
-												<a href="#">Countdown timers</a>
+												<a href="#elements/infographic/countdown">Countdown timers</a>
 											</li>
 											<li class="menu-item">
-												<a href="#">Pie Charts</a>
+												<a href="#elements/infographic/pie">Pie Charts</a>
 											</li>
 											<li class="menu-item">
-												<a href="#">Progress Bars</a>
+												<a href="#elements/infographic/progress">Progress Bars</a>
 											</li>
 										</ul>
 									</li>
@@ -239,7 +216,7 @@
 								<h3 class="sidebar-header"> Recent Updates </h3>
 								<ul>
 									<li class="clearfix">
-										<p>For complete update log,please see <a href="https://github.com/forddyce/portfolio/" target="_blank"><u> here</u></a></p>
+										<p>For complete update log, please see <a href="https://github.com/forddyce/portfolio/" target="_blank"><u> here</u></a></p>
 									</li>
 								</ul>
 							</div>
@@ -297,37 +274,12 @@
 	<!-- End Body -->
 
 	<!-- Scripts -->
-	<script src="assets/plugins/script.min.js"></script>
+	<script src="plugins/script.min.js"></script>
 	<script data-id="App.Scripts">
-		var App = {};
-
-		App.Scripts = {
-			core: [
-				'assets/plugins/jquery.min.js',
-				'assets/plugins/modernizr.min.js'
-			],
-			plugins_dependency: [
-				'assets/plugins/bootstrap.min.js',
-				'assets/plugins/jquery-migrate.min.js',
-				'assets/plugins/angular/angular.min.js',
-				'assets/plugins/revslider/jquery.themepunch.tools.min.js'
-			],
-			plugins:[
-				'assets/plugins/angular/angular-route.min.js',
-				'assets/plugins/angular/angular-animate.min.js',
-				'assets/plugins/angular/angular-loading.min.js',
-				'assets/plugins/jquery.flexslider.min.js',
-				'assets/plugins/jquery.sticky.js',
-				'assets/plugins/jquery.appear.min.js',
-				'assets/plugins/revslider/jquery.themepunch.revolution.min.js'
-			],
-			bundle:[
-				'assets/js/app.js'
-			]
-		};
+		var App={};App.Scripts={core: ['assets/js/theme.js'],bundle:['assets/js/app.js']};
 	</script>
 	<script>
-		$script(App.Scripts.core,"core");$script.ready(["core"],function(){$script(App.Scripts.plugins_dependency,"plugins_dependency")});$script.ready(["core","plugins_dependency"],function(){$script(App.Scripts.plugins,"plugins")});$script.ready(["core","plugins_dependency","plugins"],function(){$script(App.Scripts.bundle,"bundle")})
+		$script(App.Scripts.core,"core");$script.ready(["core"],function(){$script(App.Scripts.bundle,"bundle")});
 	</script>
 
 	<script>
