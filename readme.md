@@ -4,6 +4,7 @@ This repo is aimed as my portfolio on web development. Since I publish the resul
 
 Logs and updates
 
++ July 27, 2015. Misc and Infographic complete on Elements Tab. Now working on adding portfolios/past works.
 + July 19, 2015. Typo and Bootstrap complete on Elements Tab.
 + May 14, 2015. Typographic blockquotes pages added, also added https support for angular.
 + May 10, 2015. Contact page and elements typography basic page added.
